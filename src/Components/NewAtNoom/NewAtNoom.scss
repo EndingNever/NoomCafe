@@ -3,17 +3,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  margin-top: 20px;
   h1{
+    font-weight: 600;
     font-size: 48px;
+    margin-bottom: 14px;
   }
   .morning-routine-text{
-    font-weight: 400px;
+    font-weight: 400;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid;
     text-align: center;
     width: 640px;
+
+    p{
+      margin: 0px;
+    }
   }
 }

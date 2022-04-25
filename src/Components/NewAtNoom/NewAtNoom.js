@@ -1,5 +1,7 @@
 import React from 'react'
 import "./NewAtNoom.scss"
+import "./CoffeeMap"
+import Noom from './NoomCoffee/NoomCoffee'
 
 export default function NewAtNoom() {
   return (
@@ -10,6 +12,7 @@ export default function NewAtNoom() {
           looking for a new morning routine; shop for the latest items and get a jump start on your morning!
         </p>
       </div>
+      <Noom />
     </div>
   )
 }
