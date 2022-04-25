@@ -1,0 +1,19 @@
+.newNoom-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  h1{
+    font-size: 48px;
+  }
+  .morning-routine-text{
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    text-align: center;
+    width: 640px;
+  }
+}
