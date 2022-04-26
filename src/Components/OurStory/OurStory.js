@@ -1,10 +1,10 @@
 import React from 'react'
 import "./OurStory.scss"
-import { Button } from '../Styled/Styled'
+import { Button, Container } from '../Styled/Styled'
 
 export default function OurStory() {
   return (
-    <div className='ourstory-container'>
+    <Container className='ourstory-container'>
       <div className="ourstory-text">
         <h1>Our Story....</h1>
         <p>
@@ -20,6 +20,6 @@ export default function OurStory() {
       <div className="ourstory-photo">
         <img src="./story.png" alt="" />
       </div>
-    </div>
+    </Container>
   )
 }

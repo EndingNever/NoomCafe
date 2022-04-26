@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import NewAtNoom from './Components/NewAtNoom/NewAtNoom';
 import OurStory from './Components/OurStory/OurStory';
+import BrewGuides from './Components/BrewGuides/BrewGuides';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <NewAtNoom />
       <OurStory />
+      <BrewGuides />
     </div>
   );
 }

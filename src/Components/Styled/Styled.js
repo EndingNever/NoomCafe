@@ -20,3 +20,17 @@ p{
   margin-right: 8px;
 }
 `;
+
+export const Header = styled.header`
+h1{
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+}
+`;
+
+export const Container = styled.div`
+  /* width: 1435px; */
+  margin-left: auto;
+  margin-right: auto;
+`;
