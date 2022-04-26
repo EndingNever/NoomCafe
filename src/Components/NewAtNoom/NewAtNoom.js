@@ -1,6 +1,7 @@
 import React from 'react'
 import "./NewAtNoom.scss"
 import Noom from './NoomCoffee/NoomCoffee'
+import { Button } from '../Styled/Styled'
 
 export default function NewAtNoom() {
   return (
@@ -12,6 +13,12 @@ export default function NewAtNoom() {
         </p>
       </div>
       <Noom />
+      <Button>
+        <p>
+          View More
+        </p>
+        <img src="/images/NewatNoom/Arrow.svg" alt="" />
+      </Button>
     </div>
   )
 }

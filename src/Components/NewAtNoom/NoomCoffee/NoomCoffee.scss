@@ -3,18 +3,32 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 96px;
-  width: 90%;
   img {
     height: 324px;
-    width: 465px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
+  }
+  .card-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
   .card {
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
     margin: 0px 16px 60px 16px;
     height: 446px;
     width: 465px;
+
+    .originText {
+      background-color: #ffffff;
+      box-shadow: 0px -9px 34px rgba(0, 0, 0, 0.3);
+      padding: 4px;
+      font-weight: 600;
+      font-size: 14px;
+      position: absolute;
+      margin-bottom: 0px;
+    }
   }
   .card-text {
     display: flex;
@@ -34,6 +48,7 @@
       margin: 0px;
       margin-bottom: 8px;
       font-weight: 300;
+      font-size: 14px;
       font-style: italic;
     }
     .coffee-price {
