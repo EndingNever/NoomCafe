@@ -1,0 +1,1 @@
+export const DarkMoonLogo = "/images/NavbarImages/NoomCafeHeader.svg"

@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Navbar.scss"
+import { DarkMoonLogo } from '../../Reusable/Reusable'
 
 export default function Navbar() {
   return (
     <div className='navbar-container'>
       <nav>
-        <img src={process.env.PUBLIC_URL + "/images/NavbarImages/NoomCafeHeader.svg"} alt="" />
+        <img src={DarkMoonLogo} alt="" />
         <ul className='navbar-items'>
           <li>
             Shop

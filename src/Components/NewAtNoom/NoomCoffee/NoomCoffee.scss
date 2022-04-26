@@ -1,34 +1,37 @@
-.noom-container{
+.noom-container {
   // display: flex;
   // flex-direction: row;
-  border: 2px solid red;
-  img{
+  // border: 2px solid red;
+  img {
     height: 324px;
     width: 465px;
     margin: 0px;
     padding: 0px;
   }
-  .card-text{
+  .card {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  .card-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 122px;
-    
-    h3{
+
+    h3 {
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
       margin: 0px;
       margin-bottom: 8px;
     }
-    h4{
+    h4 {
       margin: 0px;
       margin-bottom: 8px;
       font-weight: 300;
       font-style: italic;
     }
-    .coffee-price{
+    .coffee-price {
       margin: 0px;
       margin-bottom: 8px;
       font-weight: 600;
