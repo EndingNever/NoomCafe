@@ -1,18 +1,40 @@
-.ourstory-container{
+.ourstory-container {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
   margin-top: 87px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 551px;
-
-  .ourstory-text{
-width: 658px;
-height: 100%;
-border: 2px solid red;
-  }
-  .ourstory-photo{
+  margin-bottom: 90px;
+  .ourstory-text {
+    width: 658px;
     height: 100%;
-    background-image: url('./story.png');
+    // border: 2px solid red;
+    padding-left: 16px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+      margin: 0px;
+      margin-top: 12px;
+      font-size: 48px;
+      font-weight: 400;
+    }
+    p {
+      line-height: 30px;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+  .ourstory-photo {
+    height: 100%;
+    background-image: url("./story.png");
     width: 777px;
+  }
+  .ourstory-button {
+    position: inherit;
+    height: 55px;
+    width: 136px;
   }
 }
