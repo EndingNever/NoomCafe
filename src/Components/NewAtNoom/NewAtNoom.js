@@ -1,6 +1,5 @@
 import React from 'react'
 import "./NewAtNoom.scss"
-import "./CoffeeMap"
 import Noom from './NoomCoffee/NoomCoffee'
 
 export default function NewAtNoom() {
