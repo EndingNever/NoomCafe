@@ -6,7 +6,7 @@ export default function OurStory() {
   return (
     <div className='ourstory-container'>
       <div className="ourstory-text">
-        <h1>Our Story...</h1>
+        <h1>Our Story....</h1>
         <p>
           Passion is what drives our purpose. We’ve been purchasing coffee directly from the farmers who grow it since 2007, when we were just a tiny, one cafe operation.
         </p>
