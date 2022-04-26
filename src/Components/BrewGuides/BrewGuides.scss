@@ -1,30 +1,36 @@
-.brewGuides-container{
+.brewGuides-container {
   margin-left: auto;
   margin-right: auto;
-  header{
+  header {
     text-align: center;
   }
-  .guides{
+  .guides {
+    // border: 2px solid red;
     display: flex;
+    align-items: center;
     justify-content: center;
-    .chemex-hero{
-      width: 50%;  
+    .chemex-hero {
+      // border: 2px solid red;
+      width: 50%;
       height: 645px;
     }
-    .guide-right{
+    .guide-right {
+      // border: 2px solid red;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      border: 2px solid purple;
-      width: 50%;
-      margin-left: 16px;
-      height: 645px;
-      .guides-card{
-        margin: 10px;
-        height: 315px;
+      // width: 50%;
+      // margin-left: 16px;
+      .guides-card {
+        // border: 2px solid red;
+        margin: 16px;
+        height: 305px;
         width: 412px;
-        border: 2px solid red;
+        img{
+          width: 100%;
+          height: 100%;
+        }
       }
     }
   }
