@@ -1,3 +1,14 @@
 .catchUp-container{
-  
+  .catchUp-photos-container{
+    // border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .catchUp-photo{
+    height: 100%;
+    width: 450px;
+  }
 }
