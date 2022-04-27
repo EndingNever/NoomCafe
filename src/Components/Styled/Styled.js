@@ -1,9 +1,13 @@
 import styled from "styled-components"
 
 export const AppContainer = styled.div`
-color: ${(props) => props.dark ? "#fff" : "#313131"};
+color: ${(props) => props.dark ? "#fff" : "#313131"} !important;
 background-color: ${(props) => props.dark ? "#313131" : "#fff"};
-transition: all .5s;
+-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
 `;
 
 export const Button = styled.button`

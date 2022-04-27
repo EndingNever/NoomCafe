@@ -28,8 +28,11 @@ export default function Navbar(props) {
             </a>
           </li>
           <img
+            className='moonLogo'
             onClick={clickHandler}
-            src={process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg"}
+            src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg" 
+            : "/images/Dark/lightMoon2.svg"
+          }
             alt="Dark Moon Logo" />
           <li>
             <a href="#brewGuides">
