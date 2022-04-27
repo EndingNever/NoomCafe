@@ -1,4 +1,5 @@
 export const DarkMoonLogo = "/images/NavbarImages/NoomCafeHeader.svg"
+export const NoomFooterLogo = "/images/NoomFooterLogo.svg"
 export const brewGuidePhotos = [
   {
     id:0,

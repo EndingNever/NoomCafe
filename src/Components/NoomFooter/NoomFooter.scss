@@ -1,0 +1,22 @@
+.noomFooter-container {
+  margin-left: -150px;
+  height: 413px;
+  // border: 2px solid red;
+  .footer-col-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100%;
+    .footer-col{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 80%;
+      // border: 2px solid red;
+      width: 25%;
+    }
+  }
+}
