@@ -50,13 +50,16 @@ h1, h2 {
   font-size: 48px;
   font-weight: 600;
   position: absolute;
-  top: 280px;
+  top: 267px;
   margin: 0;
   color: #fff;
 }
 h2{
+  top:332px;
   font-size: 24px;
   font-weight: 300;
-  top:60%
+  .chemex-carrot{
+    margin-left: 15px;
+  }
 }
 `;

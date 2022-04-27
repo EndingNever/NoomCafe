@@ -16,12 +16,17 @@ export default function BrewGuides() {
           <img className='chemex-hero-image' src={brewGuideChemex} alt="" />
           <GuideOverlay>
             <h1>Chemex</h1>
-            <h2>Start Guide {'>'}</h2>
+            <h2>Start Guide <span className='chemex-carrot'>{'>'}</span></h2>
           </GuideOverlay>
         </div>
         <div className="guide-right">
           {brewGuidePhotos.map((photo) => (
+            <>
             <BrewGuideCards className="guides-card" photo={photo.image}></BrewGuideCards>
+            <GuideOverlay>
+              <h1></h1>
+            </GuideOverlay>
+            </>
           ))}
           {/* <div className="guides-card">2</div>
           <div className="guides-card">3</div>
