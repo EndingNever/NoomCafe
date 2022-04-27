@@ -42,7 +42,7 @@ export const BrewGuideCards = styled.div`
   background-size: cover;
 `;
 
-export const GuideOverlay = styled.div`
+export const GuideChemOverlay = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -61,5 +61,26 @@ h2{
   .chemex-carrot{
     margin-left: 15px;
   }
+}
+`;
+
+export const GuideRightOverlay = styled.div`
+  color: #fff;
+  position: relative;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+h1{
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h2{
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 300;
 }
 `;

@@ -1,7 +1,7 @@
 import React from 'react'
-import { BrewGuideCards, Container, GuideOverlay, Header } from '../Styled/Styled'
-import "./BrewGuides.scss"
+import { BrewGuideCards, Container, GuideChemOverlay,GuideRightOverlay, Header } from '../Styled/Styled'
 import { brewGuideChemex, brewGuidePhotos } from '../../Reusable/Reusable'
+import "./BrewGuides.scss"
 
 export default function BrewGuides() {
   return (
@@ -14,19 +14,19 @@ export default function BrewGuides() {
       <div className="guides">
         <div className="chemex-hero">
           <img className='chemex-hero-image' src={brewGuideChemex} alt="" />
-          <GuideOverlay>
+          <GuideChemOverlay>
             <h1>Chemex</h1>
             <h2>Start Guide <span className='chemex-carrot'>{'>'}</span></h2>
-          </GuideOverlay>
+          </GuideChemOverlay>
         </div>
         <div className="guide-right">
           {brewGuidePhotos.map((photo) => (
-            <>
-            <BrewGuideCards className="guides-card" photo={photo.image}></BrewGuideCards>
-            <GuideOverlay>
-              <h1></h1>
-            </GuideOverlay>
-            </>
+            <BrewGuideCards className="guides-card" photo={photo.image}>
+              <GuideRightOverlay>
+                <h1>{photo.overlayText}</h1>
+                <h2>Start Guide <span className='chemex-carrot'>{'>'}</span></h2>
+              </GuideRightOverlay>
+            </BrewGuideCards>
           ))}
           {/* <div className="guides-card">2</div>
           <div className="guides-card">3</div>

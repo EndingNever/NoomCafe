@@ -1,20 +1,24 @@
 export const DarkMoonLogo = "/images/NavbarImages/NoomCafeHeader.svg"
 export const brewGuidePhotos = [
   {
-    image: "/images/BrewGuide/espresso-2.png",
-    id:0
+    id:0,
+    image: "/images/BrewGuide/espresso.png",
+    overlayText:"Espresso"
   },
   {
+    id:1,
     image: "/images/BrewGuide/aeropress2.png",
-    id:1
+    overlayText:"Aeropress"
   },
   {
+    id:2,
     image: "/images/BrewGuide/frenchpress2.png",
-    id:2
+    overlayText:"French press"
   },
   {
+    id:3,
     image: "/images/BrewGuide/milkart2.png",
-    id:3
+    overlayText: "Milk and art"
   }];
 
 export const brewGuideChemex = "/images/BrewGuide/guidechemex.png"
