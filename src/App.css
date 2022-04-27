@@ -3,6 +3,9 @@
 html {
   scroll-behavior: smooth;
 }
+#home{
+  scroll-margin-top: 1000px;
+}
 .App {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;

@@ -14,7 +14,7 @@ function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <AppContainer dark={dark} className="App">
+    <AppContainer dark={dark} className="App" id='home'>
       <Navbar dark={dark} setDark={setDark}/>
       <Hero />
       <NewAtNoom dark={dark} />

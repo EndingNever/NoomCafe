@@ -2,11 +2,20 @@ import React from 'react'
 import "./Navbar.scss"
 import { DarkMoonLogo } from '../../Reusable/Reusable'
 
-export default function Navbar() {
+export default function Navbar(props) {
+  const dark = props.dark;
+  const setDark = props.setDark;
+
+  const clickHandler = () => {
+    setDark(!dark);
+  }
+
   return (
     <div className='navbar-container'>
       <nav>
-        <img src={DarkMoonLogo} alt="" />
+        <a href="#home">
+          <img src={DarkMoonLogo} alt="" />
+        </a>
         <ul className='navbar-items'>
           <li>
             <a href="#newAtNoom">
@@ -18,7 +27,10 @@ export default function Navbar() {
               About
             </a>
           </li>
-          <img src={process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg"} alt="" />
+          <img
+            onClick={clickHandler}
+            src={process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg"}
+            alt="Dark Moon Logo" />
           <li>
             <a href="#brewGuides">
               Learn
