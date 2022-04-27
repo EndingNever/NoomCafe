@@ -5,7 +5,7 @@ import "./BrewGuides.scss"
 
 export default function BrewGuides() {
   return (
-    <Container className='brewGuides-container'>
+    <Container className='brewGuides-container' id='brewGuides'>
       <Header>
         <h1>
           Brew Guides

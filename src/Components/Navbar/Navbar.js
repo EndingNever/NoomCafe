@@ -14,14 +14,20 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            About
+            <a href="#ourstory">
+              About
+            </a>
           </li>
           <img src={process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg"} alt="" />
           <li>
-            Learn
+            <a href="#brewGuides">
+              Learn
+            </a>
           </li>
           <li>
-            Connect
+            <a href="#connect">
+              Connect
+            </a>
           </li>
         </ul>
         <div className='navbar-icons'>

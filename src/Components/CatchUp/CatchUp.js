@@ -5,7 +5,7 @@ import "./CatchUp.scss"
 
 export default function CatchUp() {
   return (
-    <Container className='catchUp-container'>
+    <Container className='catchUp-container' id='connect'>
       <Header>
         <h1>Catch up on our latest posts</h1>
       </Header>

@@ -4,7 +4,7 @@ import { Button, Container } from '../Styled/Styled'
 
 export default function OurStory() {
   return (
-    <Container className='ourstory-container'>
+    <Container className='ourstory-container' id="ourstory">
       <div className="ourstory-text">
         <h1>Our Story....</h1>
         <p>
