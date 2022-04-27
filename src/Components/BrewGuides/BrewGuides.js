@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrewGuideCards, Container, GuideChemOverlay,GuideRightOverlay, Header } from '../Styled/Styled'
+import { BrewGuideCards, Container, GuideChemOverlay, GuideRightOverlay, Header } from '../Styled/Styled'
 import { brewGuideChemex, brewGuidePhotos } from '../../Reusable/Reusable'
 import "./BrewGuides.scss"
 

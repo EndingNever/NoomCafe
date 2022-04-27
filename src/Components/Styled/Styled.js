@@ -33,6 +33,9 @@ export const Container = styled.div`
   /* width: 1435px; */
   margin-left: auto;
   margin-right: auto;
+  header{
+    text-align: center;
+  }
 `;
 
 export const BrewGuideCards = styled.div`

@@ -22,3 +22,18 @@ export const brewGuidePhotos = [
   }];
 
 export const brewGuideChemex = "/images/BrewGuide/guidechemex.png"
+
+export const catchUpPhotos = [
+  {
+    id:0,
+    image: "/images/CatchUp/catchup1.png"
+  },
+  {
+    id:1,
+    image: "/images/CatchUp/catchup2.png"
+  },
+  {
+    id:2,
+    image: "/images/CatchUp/catchup3.png"
+  },
+]
