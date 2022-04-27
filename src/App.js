@@ -6,6 +6,8 @@ import NewAtNoom from './Components/NewAtNoom/NewAtNoom';
 import OurStory from './Components/OurStory/OurStory';
 import BrewGuides from './Components/BrewGuides/BrewGuides';
 import CatchUp from './Components/CatchUp/CatchUp';
+import Newsletter from './Components/Newsletter/Newsletter';
+import NoomFooter from './Components/NoomFooter/NoomFooter';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <OurStory />
       <BrewGuides />
       <CatchUp />
+      <Newsletter />
+      <NoomFooter />
     </div>
   );
 }

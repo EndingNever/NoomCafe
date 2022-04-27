@@ -15,8 +15,6 @@ export default function CatchUp() {
             <img src={catchUp.image} alt="" />
           </div>
         ))}
-        {/* <div className="catchUp-photo">2</div>
-        <div className="catchUp-photo">3</div> */}
       </div>
     </Container>
   )
