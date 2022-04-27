@@ -34,3 +34,29 @@ export const Container = styled.div`
   margin-left: auto;
   margin-right: auto;
 `;
+
+export const BrewGuideCards = styled.div`
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(${(props) => props.photo});
+  background-position: 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
+
+export const GuideOverlay = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+h1, h2 {
+  font-size: 48px;
+  font-weight: 600;
+  position: absolute;
+  top: 280px;
+  margin: 0;
+  color: #fff;
+}
+h2{
+  font-size: 24px;
+  font-weight: 300;
+  top:60%
+}
+`;

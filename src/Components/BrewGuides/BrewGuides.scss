@@ -5,29 +5,32 @@
     text-align: center;
   }
   .guides {
-    // border: 2px solid red;
+    // border: 2px solid purple;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 645px;
     .chemex-hero {
-      // border: 2px solid red;
+      position: relative;
       width: 50%;
-      height: 645px;
+      height: 100%;
     }
     .guide-right {
       // border: 2px solid red;
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      // width: 50%;
+      justify-content: flex-end;
+      width: 100%;
+      height: 100%;
       // margin-left: 16px;
       .guides-card {
         // border: 2px solid red;
-        margin: 16px;
-        height: 305px;
-        width: 412px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        height: 48.7%;
+        width: 48%;
         img{
+          background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39));
           width: 100%;
           height: 100%;
         }
