@@ -33,7 +33,7 @@ export const Container = styled.div`
   /* width: 1435px; */
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 95px;
+  /* margin-bottom: 95px; */
   header{
     text-align: center;
   }
