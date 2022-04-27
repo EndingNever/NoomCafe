@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
@@ -8,19 +7,23 @@ import BrewGuides from './Components/BrewGuides/BrewGuides';
 import CatchUp from './Components/CatchUp/CatchUp';
 import Newsletter from './Components/Newsletter/Newsletter';
 import NoomFooter from './Components/NoomFooter/NoomFooter';
+import { useState } from 'react';
+import { AppContainer } from './Components/Styled/Styled';
 
 function App() {
+  const [dark, setDark] = useState(false);
+
   return (
-    <div className="App">
-      <Navbar />
+    <AppContainer dark={dark} className="App">
+      <Navbar dark={dark} setDark={setDark}/>
       <Hero />
-      <NewAtNoom />
+      <NewAtNoom dark={dark} />
       <OurStory />
       <BrewGuides />
       <CatchUp />
       <Newsletter />
       <NoomFooter />
-    </div>
+    </AppContainer>
   );
 }
 

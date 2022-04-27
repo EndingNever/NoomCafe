@@ -1,13 +1,13 @@
 .noomFooter-container {
   margin-top: 118px;
   margin-bottom: 0px;
-  height: 413px;
+  height: 350px;
   .footer-col-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    // margin-left: 150px;
+    // margin-right: 150px;
     height: 90%;
     .footer-col{
       display: flex;
@@ -31,10 +31,9 @@
       .footer-col-icons{
         img{
           margin-top: 20px;
-          margin-left: 8px;
-          margin-right: 8px;
-          width: 22px;
-          height: 22px;
+          // margin-left: 8px;
+          margin-right: 12px;
+          // width: 24px;
         }
       }
     }

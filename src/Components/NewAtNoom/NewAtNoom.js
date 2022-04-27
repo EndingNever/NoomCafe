@@ -5,7 +5,7 @@ import { Button, Header } from '../Styled/Styled'
 
 export default function NewAtNoom() {
   return (
-    <div className='newNoom-container'>
+    <div className='newNoom-container' id="newAtNoom">
       <Header>
       <h1>New at Noom</h1>
       </Header>

@@ -9,7 +9,9 @@ export default function Navbar() {
         <img src={DarkMoonLogo} alt="" />
         <ul className='navbar-items'>
           <li>
-            Shop
+            <a href="#newAtNoom">
+              Shop
+            </a>
           </li>
           <li>
             About

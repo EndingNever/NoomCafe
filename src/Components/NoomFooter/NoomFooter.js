@@ -24,10 +24,10 @@ const NoomFooter = () => {
         <div className="footer-col">
           <h2>Connect with us</h2>
           <div className="footer-col-icons">
-            <img src={process.env.PUBLIC_URL + "/images/facebook.svg"} alt="" />
             <img src={process.env.PUBLIC_URL + "/images/instagram.svg"} alt="" />
-            <img src={process.env.PUBLIC_URL + "/images/snapchat-ghost.svg"} alt="" />
             <img src={process.env.PUBLIC_URL + "/images/twitter.svg"} alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/snapchat-ghost.svg"} alt="" />
+            <img src={process.env.PUBLIC_URL + "/images/facebook.svg"} alt="" />
           </div>
         </div>
       </div>

@@ -1,5 +1,9 @@
 import styled from "styled-components"
 
+export const AppContainer = styled.div`
+color: ${(props) => props.dark ? "#fff" : "#313131"};
+`;
+
 export const Button = styled.button`
 background-color: #313131;
 border: none;

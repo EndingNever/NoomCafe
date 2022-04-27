@@ -1,16 +1,19 @@
-.newNoom-container{
+#newAtNoom {
+  scroll-margin-top: 100px;
+}
+.newNoom-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 95px;
-  h1{
+  h1 {
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 14px;
   }
-  .morning-routine-text{
+  .morning-routine-text {
     font-weight: 400;
     font-size: 20px;
     display: flex;
@@ -19,7 +22,7 @@
     text-align: center;
     width: 640px;
 
-    p{
+    p {
       margin: 0px;
     }
   }
