@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const AppContainer = styled.div`
 color: ${(props) => props.dark ? "#fff" : "#313131"};
 background-color: ${(props) => props.dark ? "#1A1A1A" : "#fff"};
--webkit-transition: all .5s;
+/* -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
-    -ms-transition: all .5s;
+    -ms-transition: all .5s; */
     transition: all .5s;
 `;
 
@@ -37,6 +37,7 @@ position: relative;
 left: 640px;
 font-family: "Poppins";
 p{
+  white-space: nowrap;
   color: ${(props) => props.dark ? "#313131" : "#fff"};
   font-weight: 400;
   font-size: 20px;

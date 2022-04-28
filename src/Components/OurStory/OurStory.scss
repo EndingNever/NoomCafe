@@ -44,7 +44,10 @@
   .ourstory-button {
     position: inherit;
     height: 55px;
-    width: 136px;
+    // width: 136px;
     margin-bottom: auto;
+    p{
+      padding: 0px;
+    }
   }
 }
