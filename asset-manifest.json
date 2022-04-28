@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/NoomCafe/static/css/main.0bf9aa61.css",
-    "main.js": "/NoomCafe/static/js/main.da085762.js",
+    "main.js": "/NoomCafe/static/js/main.ac2830f2.js",
     "static/js/787.6df11971.chunk.js": "/NoomCafe/static/js/787.6df11971.chunk.js",
     "static/media/hero.jpg": "/NoomCafe/static/media/hero.29b4d6555e4831f26f30.jpg",
     "static/media/story.png": "/NoomCafe/static/media/story.3c13f6fdcfff1ccd7a5c.png",
     "static/media/newsletter.png": "/NoomCafe/static/media/newsletter.2cf18303cd7513968277.png",
     "index.html": "/NoomCafe/index.html",
     "main.0bf9aa61.css.map": "/NoomCafe/static/css/main.0bf9aa61.css.map",
-    "main.da085762.js.map": "/NoomCafe/static/js/main.da085762.js.map",
+    "main.ac2830f2.js.map": "/NoomCafe/static/js/main.ac2830f2.js.map",
     "787.6df11971.chunk.js.map": "/NoomCafe/static/js/787.6df11971.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0bf9aa61.css",
-    "static/js/main.da085762.js"
+    "static/js/main.ac2830f2.js"
   ]
 }
