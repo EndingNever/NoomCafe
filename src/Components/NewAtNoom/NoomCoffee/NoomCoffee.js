@@ -17,7 +17,7 @@ export default function NoomCoffee(props) {
               className='originText'
               >{data.originText}
               </OriginText>
-              : null }
+              : null}
           </div>
           <div className="card-text">
             <h3>{data.title}</h3>

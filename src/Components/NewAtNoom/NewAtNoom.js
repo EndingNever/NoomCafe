@@ -17,11 +17,11 @@ export default function NewAtNoom( props ) {
         </p>
       </div>
       <Noom dark={dark}/>
-      <Button>
+      <Button dark={dark}>
         <p>
           View More
         </p>
-        <img src="/images/NewatNoom/Arrow.svg" alt="" />
+        <img src={ dark ? "/images/Dark/ArrowDark.png" : "/images/NewatNoom/Arrow.svg"} alt="" />
       </Button>
     </div>
   )

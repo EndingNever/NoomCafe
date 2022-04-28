@@ -20,11 +20,11 @@ background-color: ${(props) => props.dark ? "#313131" : "inherit"};
 
 export const OriginText = styled.p`
 background-color: ${(props) => props.dark ? "#313131" : "#fff"};
-color: ${(props) => props.dark ? "#fff" : "#1A1A1A"}
+color: ${(props) => props.dark ? "#fff" : "#1A1A1A"};
 `;
 
 export const Button = styled.button`
-background-color: #313131;
+background-color: ${(props) => props.dark ? "#fff" : "#313131"};
 border: none;
 color: white;
 display: flex;
@@ -37,6 +37,7 @@ position: relative;
 left: 640px;
 font-family: "Poppins";
 p{
+  color: ${(props) => props.dark ? "#313131" : "#fff"};
   font-weight: 400;
   font-size: 20px;
   margin: 0px;
@@ -53,10 +54,10 @@ h1{
 `;
 
 export const Container = styled.div`
-  /* width: 1435px; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 95px; */
+  /* border: ${(props) => props.dark ? "2px solid red" : "2px solid pink"}; */
+  background-color: ${(props) => props.dark ? "#313131" : "inherit"};
   header{
     text-align: center;
   }

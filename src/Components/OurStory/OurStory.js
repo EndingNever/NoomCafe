@@ -6,7 +6,7 @@ export default function OurStory(props) {
   const dark = props.dark;
   
   return (
-    <Container className='ourstory-container' id="ourstory">
+    <Container dark={dark} className='ourstory-container' id="ourstory">
       <div className="ourstory-text">
         <h1>Our Story....</h1>
         <p>
@@ -15,8 +15,8 @@ export default function OurStory(props) {
         <p>
           We’ve always roasted our coffees in small batches, and taste every roast because we’re obsessed with quality. We’re also a pioneer of the West Coast style of light roasting that continues to illuminate the spectrum of what coffee can be.
         </p>
-        <Button className='ourstory-button'>
-          Learn More
+        <Button dark={dark} className='ourstory-button'>
+          <p>Learn More</p>
         </Button>
       </div>
       <div className="ourstory-photo">
