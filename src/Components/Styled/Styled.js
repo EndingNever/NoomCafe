@@ -12,7 +12,8 @@ background-color: ${(props) => props.dark ? "#313131" : "#fff"};
 
 export const MoonNav = styled.div`
 
-  filter: ${(props) => props.dark ? "box-shadow: 0px 4px 40px rgba(255, 255, 255, 0.03)" : "drop-shadow(0px 4px 40px rgba(49, 49, 49, 0.08))"};
+box-shadow: ${(props) => props.dark ? "0px 4px 40px rgba(255, 255, 255, 0.03);" : "0px 4px 40px rgba(49, 49, 49, 0.08);"};
+  /* border: ${(props) => !props.dark ? "2px solid red" : "1px solid pink" }; */
 `;
 
 export const Button = styled.button`
