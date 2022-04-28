@@ -36,6 +36,7 @@ padding: 10px 15px;
 position: relative;
 left: 640px;
 font-family: "Poppins";
+cursor: pointer;
 p{
   white-space: nowrap;
   color: ${(props) => props.dark ? "#313131" : "#fff"};

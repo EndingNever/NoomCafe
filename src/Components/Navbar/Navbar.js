@@ -16,8 +16,8 @@ export default function Navbar(props) {
       <nav>
         <a href="#home">
           <img src={!dark ? 
-            DarkMoonLogo : 
-            logoLight
+            process.env.PUBLIC_URL + `${DarkMoonLogo}` : 
+            process.env.PUBLIC_URL + `${logoLight}`
             } alt="" />
         </a>
         <ul className='navbar-items'>
