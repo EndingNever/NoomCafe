@@ -53,9 +53,9 @@ export default function Navbar(props) {
           <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/shopping-cart.svg"
           : process.env.PUBLIC_URL + "/images/Dark/cartLight.svg"}  alt="" />
           <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/user.svg" 
-          : process.env.PUBLIC_URL + "/images/Dark/searchlight.svg" } alt="" />
-          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/search.svg" 
           : process.env.PUBLIC_URL + "/images/Dark/userlight.svg" } alt="" />
+          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/search.svg" 
+          : process.env.PUBLIC_URL + "/images/Dark/searchlight.svg" } alt="" />
         </div>
       </nav>
     </MoonNav>

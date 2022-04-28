@@ -66,7 +66,7 @@ export const Container = styled.div`
 `;
 
 export const BrewGuideCards = styled.div`
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(${(props) => props.photo});
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(${(props) => process.env.PUBLIC_URL + `${props.photo}`});
   background-position: 65%;
   background-repeat: no-repeat;
   background-size: cover;

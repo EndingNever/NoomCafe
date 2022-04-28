@@ -13,7 +13,7 @@ export default function BrewGuides() {
       </Header>
       <div className="guides">
         <div className="chemex-hero">
-          <img className='chemex-hero-image' src={brewGuideChemex} alt="" />
+          <img className='chemex-hero-image' src={process.env.PUBLIC_URL + brewGuideChemex} alt="" />
           <GuideChemOverlay>
             <h1>Chemex</h1>
             <h2>Start Guide <span className='chemex-carrot'>{'>'}</span></h2>
@@ -28,9 +28,6 @@ export default function BrewGuides() {
               </GuideRightOverlay>
             </BrewGuideCards>
           ))}
-          {/* <div className="guides-card">2</div>
-          <div className="guides-card">3</div>
-          <div className="guides-card">4</div> */}
         </div>
       </div>
     </Container>

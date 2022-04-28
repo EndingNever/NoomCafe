@@ -8,7 +8,7 @@ const NoomFooter = (props) => {
   return (
     <Container className='noomFooter-container'>
       <div className="footer-col-container">
-        <div className="footer-col footer-col-1"><img src={dark ? NoomFooterDark : NoomFooterLogo} alt="" /></div>
+        <div className="footer-col footer-col-1"><img src={dark ? process.env.PUBLIC_URL + NoomFooterDark : process.env.PUBLIC_URL + NoomFooterLogo} alt="" /></div>
         <div className="footer-col">
           <h2>Address</h2>
           <p>700 Van Ness Ave, Fresno, CA 93721</p>
