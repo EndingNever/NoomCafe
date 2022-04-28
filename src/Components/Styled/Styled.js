@@ -10,6 +10,11 @@ background-color: ${(props) => props.dark ? "#313131" : "#fff"};
     transition: all .5s;
 `;
 
+export const MoonNav = styled.div`
+
+  filter: ${(props) => props.dark ? "box-shadow: 0px 4px 40px rgba(255, 255, 255, 0.03)" : "drop-shadow(0px 4px 40px rgba(49, 49, 49, 0.08))"};
+`;
+
 export const Button = styled.button`
 background-color: #313131;
 border: none;

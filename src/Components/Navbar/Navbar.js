@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.scss"
-import { DarkMoonLogo } from '../../Reusable/Reusable'
+import { DarkMoonLogo, logoLight } from '../../Reusable/Reusable'
+import { MoonNav } from '../Styled/Styled';
 
 export default function Navbar(props) {
   const dark = props.dark;
@@ -11,10 +12,13 @@ export default function Navbar(props) {
   }
 
   return (
-    <div className='navbar-container'>
+    <MoonNav dark={dark} className='navbar-container'>
       <nav>
         <a href="#home">
-          <img src={DarkMoonLogo} alt="" />
+          <img src={!dark ? 
+            DarkMoonLogo : 
+            logoLight
+            } alt="" />
         </a>
         <ul className='navbar-items'>
           <li>
@@ -31,7 +35,7 @@ export default function Navbar(props) {
             className='moonLogo'
             onClick={clickHandler}
             src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/Moon-Dark.svg" 
-            : "/images/Dark/lightMoon2.svg"
+            : process.env.PUBLIC_URL + "/images/Dark/lightMoon2.svg"
           }
             alt="Dark Moon Logo" />
           <li>
@@ -46,11 +50,14 @@ export default function Navbar(props) {
           </li>
         </ul>
         <div className='navbar-icons'>
-          <img src={process.env.PUBLIC_URL + "/images/NavbarImages/shopping-cart.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/NavbarImages/user.svg"} alt="" />
-          <img src={process.env.PUBLIC_URL + "/images/NavbarImages/search.svg"} alt="" />
+          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/shopping-cart.svg"
+          : process.env.PUBLIC_URL + "/images/Dark/cartLight.svg"}  alt="" />
+          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/user.svg" 
+          : process.env.PUBLIC_URL + "/images/Dark/searchlight.svg" } alt="" />
+          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/search.svg" 
+          : process.env.PUBLIC_URL + "/images/Dark/userlight.svg" } alt="" />
         </div>
       </nav>
-    </div>
+    </MoonNav>
   )
 }
