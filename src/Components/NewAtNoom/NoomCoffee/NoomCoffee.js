@@ -11,7 +11,7 @@ export default function NoomCoffee(props) {
       {coffeeData.map((data) => (
         <NoomCard dark={dark} className="card" key={data.price}>
           <div className="card-image">
-            <img src={data.image} alt="" />
+            <img src={process.env.PUBLIC_URL + data.image} alt="" />
             {data.originText ? <OriginText
               dark={dark}
               className='originText'
