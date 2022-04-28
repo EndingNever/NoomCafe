@@ -3,7 +3,9 @@ import "./NewAtNoom.scss"
 import Noom from './NoomCoffee/NoomCoffee'
 import { Button, Header } from '../Styled/Styled'
 
-export default function NewAtNoom() {
+export default function NewAtNoom( props ) {
+  const dark = props.dark;
+  
   return (
     <div className='newNoom-container' id="newAtNoom">
       <Header>
@@ -14,7 +16,7 @@ export default function NewAtNoom() {
           looking for a new morning routine; shop for the latest items and get a jump start on your morning!
         </p>
       </div>
-      <Noom />
+      <Noom dark={dark}/>
       <Button>
         <p>
           View More

@@ -2,7 +2,9 @@ import React from 'react'
 import "./OurStory.scss"
 import { Button, Container } from '../Styled/Styled'
 
-export default function OurStory() {
+export default function OurStory(props) {
+  const dark = props.dark;
+  
   return (
     <Container className='ourstory-container' id="ourstory">
       <div className="ourstory-text">

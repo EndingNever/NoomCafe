@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const AppContainer = styled.div`
-color: ${(props) => props.dark ? "#fff" : "#313131"} !important;
-background-color: ${(props) => props.dark ? "#313131" : "#fff"};
+color: ${(props) => props.dark ? "#fff" : "#313131"};
+background-color: ${(props) => props.dark ? "#1A1A1A" : "#fff"};
 -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
@@ -11,9 +11,16 @@ background-color: ${(props) => props.dark ? "#313131" : "#fff"};
 `;
 
 export const MoonNav = styled.div`
-
 box-shadow: ${(props) => props.dark ? "0px 4px 40px rgba(255, 255, 255, 0.03);" : "0px 4px 40px rgba(49, 49, 49, 0.08);"};
-  /* border: ${(props) => !props.dark ? "2px solid red" : "1px solid pink" }; */
+`;
+
+export const NoomCard = styled.div`
+background-color: ${(props) => props.dark ? "#313131" : "inherit"};
+`;
+
+export const OriginText = styled.p`
+background-color: ${(props) => props.dark ? "#313131" : "#fff"};
+color: ${(props) => props.dark ? "#fff" : "#1A1A1A"}
 `;
 
 export const Button = styled.button`

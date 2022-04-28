@@ -18,7 +18,7 @@ function App() {
       <Navbar dark={dark} setDark={setDark}/>
       <Hero />
       <NewAtNoom dark={dark} />
-      <OurStory />
+      <OurStory dark={dark}/>
       <BrewGuides />
       <CatchUp />
       <Newsletter />
