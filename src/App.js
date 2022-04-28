@@ -11,7 +11,7 @@ import { useState } from 'react';
 import { AppContainer } from './Components/Styled/Styled';
 
 function App() {
-  const [dark, setDark] = useState(true);
+  const [dark, setDark] = useState(false);
 
   return (
     <AppContainer dark={dark} className="App" id='home'>
