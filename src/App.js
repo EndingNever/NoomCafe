@@ -22,7 +22,7 @@ function App() {
       <BrewGuides />
       <CatchUp />
       <Newsletter />
-      <NoomFooter />
+      <NoomFooter dark={dark} />
     </AppContainer>
   );
 }
