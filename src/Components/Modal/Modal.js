@@ -7,15 +7,16 @@ export default function Modal(props) {
   const setModal = props.setModal;
   const modalHandler = props.modalHandler;
 
+
   return (
-    <div className="modal-container">
-      <div className='modal-container-top'>
+    <div onClick={modalHandler} className="modal-container">
+      <div onClick={e=> e.stopPropagation()} className='modal-container-top'>
         <div className="modal-top">
           <img src={process.env.PUBLIC_URL + "/images/Dark/searchlight.svg"} alt="" />
-          <input type="text" />
+          <input placeholder='Search' type="text" />
         </div>
       </div>
-      <div className="modal-container-bottom">
+      <div onClick={e=> e.stopPropagation()} className="modal-container-bottom">
         <div className="modal-bottom">
           <p>I'm Looking For...</p>
           <div className="looking-for">
