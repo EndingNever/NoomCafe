@@ -1,5 +1,5 @@
 import React from 'react'
-import { ModalButtons, ModalButtonsWhite } from '../Styled/Styled';
+import { ModalButtons } from '../Styled/Styled';
 import "./Modal.scss"
 
 export default function Modal(props) {
