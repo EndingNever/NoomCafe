@@ -9,8 +9,8 @@ export default function Modal(props) {
 
 
   return (
-    <div onClick={modalHandler} className="modal-container">
-      <div onClick={e=> e.stopPropagation()} className='modal-container-top'>
+    <div onClick={modalHandler} className='modal-container'>
+      <div onClick={e=> e.stopPropagation()} className={`modal-container-top ${modal ? 'slideIn' : 'slideOut'}`}>
         <div className="modal-top">
           <img src={process.env.PUBLIC_URL + "/images/Dark/searchlight.svg"} alt="" />
           <input placeholder='Search' type="text" />

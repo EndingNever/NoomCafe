@@ -18,7 +18,7 @@ export default function Navbar(props) {
     setModal(!modal);
 
   }
-  useEffect (() => {
+  useEffect(() => {
     if (modal === true) {
       console.log(true);
       document.body.style.overflow = 'hidden';
