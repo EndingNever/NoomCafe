@@ -114,3 +114,19 @@ h2{
   font-weight: 300;
 }
 `;
+
+export const ModalButtons = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+/* background-color: white; */
+border-radius: 5px;
+/* color: black; */
+font-size: 14px;
+font-weight: 700;
+font-family: "Poppins";
+height: 41px;
+margin-left: 20px;
+padding: 10px 25px;
+width: 136px;
+`;

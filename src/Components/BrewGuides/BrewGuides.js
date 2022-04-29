@@ -21,7 +21,7 @@ export default function BrewGuides() {
         </div>
         <div className="guide-right">
           {brewGuidePhotos.map((photo) => (
-            <BrewGuideCards className="guides-card" photo={photo.image}>
+            <BrewGuideCards key={photo.id} className="guides-card" photo={photo.image}>
               <GuideRightOverlay>
                 <h1>{photo.overlayText}</h1>
                 <h2>Start Guide <span className='chemex-carrot'>{'>'}</span></h2>

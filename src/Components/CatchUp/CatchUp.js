@@ -11,7 +11,7 @@ export default function CatchUp() {
       </Header>
       <div className="catchUp-photos-container">
         {catchUpPhotos.map((catchUp) => (
-          <div className="catchUp-photo" id={catchUp.id}>
+          <div className="catchUp-photo" id={catchUp.id} key={catchUp.id}>
             <img src={process.env.PUBLIC_URL + catchUp.image} alt="" />
           </div>
         ))}

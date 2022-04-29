@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Navbar.scss"
 import { DarkMoonLogo, logoLight } from '../../Reusable/Reusable'
 import { MoonNav } from '../Styled/Styled';
+import Modal from '../Modal/Modal';
 
 export default function Navbar(props) {
   const dark = props.dark;
@@ -11,8 +12,20 @@ export default function Navbar(props) {
     setDark(!dark);
   }
 
+  const [modal, setModal] = useState(false);
+  
+  const modalHandler = () =>{
+    setModal(!modal);
+    console.log(modal);
+  }
+  
   return (
     <MoonNav dark={dark} className='navbar-container'>
+      {modal ? <Modal 
+      modal={modal} 
+      setModal={setModal}
+      modalHandler={modalHandler}
+      /> : null}
       <nav>
         <a href="#home">
           <img src={!dark ? 
@@ -54,7 +67,7 @@ export default function Navbar(props) {
           : process.env.PUBLIC_URL + "/images/Dark/cartLight.svg"}  alt="" />
           <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/user.svg" 
           : process.env.PUBLIC_URL + "/images/Dark/userlight.svg" } alt="" />
-          <img src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/search.svg" 
+          <img onClick={modalHandler} src={!dark ? process.env.PUBLIC_URL + "/images/NavbarImages/search.svg" 
           : process.env.PUBLIC_URL + "/images/Dark/searchlight.svg" } alt="" />
         </div>
       </nav>
