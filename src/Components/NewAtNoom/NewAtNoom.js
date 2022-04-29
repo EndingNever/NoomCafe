@@ -21,7 +21,7 @@ export default function NewAtNoom( props ) {
         <p>
           View More
         </p>
-        <img src={ dark ? "/images/Dark/ArrowDark.png" : "/images/NewatNoom/Arrow.svg"} alt="" />
+        <img src={ dark ? process.env.PUBLIC_URL + "/images/Dark/ArrowDark.png" : process.env.PUBLIC_URL + "/images/NewatNoom/Arrow.svg"} alt="" />
       </Button>
     </div>
   )
