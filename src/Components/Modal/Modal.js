@@ -11,8 +11,8 @@ export default function Modal(props) {
     <div className="modal-container">
       <div className='modal-container-top'>
         <div className="modal-top">
+          <img src={process.env.PUBLIC_URL + "/images/Dark/searchlight.svg"} alt="" />
           <input type="text" />
-          search
         </div>
       </div>
       <div className="modal-container-bottom">
